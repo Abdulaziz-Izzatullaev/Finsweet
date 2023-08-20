@@ -1,0 +1,146 @@
+:root{
+--light:rgba(255, 255, 255, 1);
+--black:rgba(35, 37, 54, 1);
+}
+*{
+box-sizing: border-box;
+}
+.page{
+max-width: 1440px;
+width: 100%;
+background-color: red;
+}
+.nav{
+width: 1440px;
+height: 80px;
+display: flex;
+align-items: center;
+position: relative;
+background-color: var(--black);
+}
+.nav__linklist{
+display: flex;
+position: absolute;
+right: 291px;
+gap: 0 20px;
+}
+.nav__category{
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+color: var(--light);
+}
+.nav__btn{
+width: 176px;
+height: 56px;
+color: var(--black, #232536);
+font-family: Sen;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+position: absolute;
+right: 80px;
+}
+.Aboutus__header{
+width: 1133px;
+height: 356px;
+display: flex;
+position: absolute;
+left: 189px;
+top: 160px;
+z-index: 10;
+}
+.Aboutus__header__info{
+width: 624px;
+height: 356px;
+padding: 100px 64px 64px 64px;
+display: flex;
+flex-direction: column;
+background-color: white;
+}
+.Aboutus__header__info-title{
+font-family: Inter;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 3px;
+color: var(--black);
+}
+.Aboutus__header__info-quote{
+font-family: Sen;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px; 
+letter-spacing: -2px;
+}
+.Aboutus__header__info2-quote{
+font-family: Inter;
+color: darkgray;
+}
+.Aboutus__header__info2{
+justify-content: center;
+}
+.Aboutus__content{
+width: 1280px;
+height: calc(444px + 441px);
+position: absolute;
+top: 453px;
+left: 80px;
+}
+.Aboutus__content__numbers{
+width: 630px;
+height: 156px;
+background-color: rgba(255, 208, 80, 1);
+display: flex;
+justify-content: space-evenly;
+position: absolute;
+align-items: center;
+top: 289px;
+left: 120px;
+}
+.Aboutus__content__numberslist{
+color: var(--black);
+}
+.Aboutus__content-numberslist-number{
+font-family: Sen;
+font-size: 56px;
+font-weight: 700;
+line-height: 64px; 
+letter-spacing: -2px;
+color: var(--black);
+}
+.Aboutus__content-numberslist-text{
+font-family: Inter;
+font-weight: 400;
+line-height: 28px;
+color: var(--black);
+}
+.Aboutus__content__mission{
+background-color: rgba(244, 240, 248, 1);
+width: 1280px;
+height: 441px;
+display: flex;
+padding: 128px 108px 64px 108px;
+}
+.Ourmision{
+width: 516px;
+height: 249px;
+padding: 0 35px 0 0;
+}
+.Ourmision-title{
+font-family: Inter;
+font-weight: 600;
+line-height: 20px; 
+letter-spacing: 3px;
+color: var(--black);
+}
+.Ourmision-title2{
+font-family: Sen;
+font-size: 28px;
+font-weight: 700;
+line-height: 40px; 
+letter-spacing: -1px;
+color: var(--black);
+}
